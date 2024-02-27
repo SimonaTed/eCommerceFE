@@ -1,0 +1,37 @@
+<div class="container">
+   <img class="logo" src="/assets/images/logo.png" height="100px" width="450px">
+    <div class="search-bar">
+      <input id="sigla" name="sigla" [(ngModel)]="siglaValue" class="form-control"
+        placeholder="Quale argomento stai cercando?">
+        <i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
+    </div>
+    
+    <div>
+      <button class="btn btn-outline-secondary" (click)="search()" routerLink="/results">
+        Cerca
+      </button>
+    </div>
+</div>
+
+
+<h5 class="suggerimenti">Suggerimenti...</h5>
+
+
+<div class="card-container d-flex justify-content-center">
+  <div class="solution_card container-fluid cards_size" *ngFor="let query of queries">
+    <div class="hover_color_bubble"></div>
+    <div style="margin-top: 5vh;">
+      <h5>{{query}}</h5>
+      <p>Breve descrizione</p>
+    </div>
+    <div class="arrow-right">
+      <i class="fa-solid fa-arrow-right fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<footer>
+  <app-footer></app-footer>
+</footer>
