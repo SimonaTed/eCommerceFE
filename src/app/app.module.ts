@@ -8,10 +8,15 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { LoginComponent } from './component/login/login.component';
 import { ResultsComponent } from './component/results/results.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { CarrelloComponent } from './component/carrello/carrello.component';
+import { AreaPersonaleComponent } from './component/area-personale/area-personale.component';
+import { ErroreComponent } from './component/errore/errore.component';
+import { RegistrazioneComponent } from './component/registrazione/registrazione.component';
+
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ConfermaRegistrazioneComponent } from './component/conferma-registrazione/conferma-registrazione.component';
 
 
 
@@ -26,7 +31,12 @@ import { BrowserModule } from '@angular/platform-browser';
     NavbarComponent,
     LoginComponent,
     ResultsComponent,
-    FooterComponent
+    FooterComponent,
+    CarrelloComponent,
+    AreaPersonaleComponent,
+    ErroreComponent,
+    RegistrazioneComponent,
+    ConfermaRegistrazioneComponent
   ],
   
   imports: [

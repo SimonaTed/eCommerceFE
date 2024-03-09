@@ -1,0 +1,30 @@
+body{
+  
+}
+
+.contenitore {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.profile-card {
+  flex: 1; /* Occupa tutto lo spazio disponibile */
+  margin-right: 1vh;
+  margin-top: -3vh;
+  margin-left: 1vh;
+  text-align: center;
+}
+
+.details-card {
+  flex: 3; /* Occupa il doppio dello spazio rispetto alla profile-card */
+  margin-right: 1vh;
+  margin-top: -3vh;
+  margin-left: 1vh;
+  text-align: center;
+}
+
+.modifica{
+  margin-top: 5%;
+}

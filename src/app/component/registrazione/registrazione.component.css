@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .logo{
+    width: 350px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  
+  .background {
+    background-image: url('/assets/images/codice2.png');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+    .labelInput{
+      justify-content: center;
+      color: #0f1e57;
+      margin: 1vh 0 1vh 0;
+      font-size: 1.2rem;
+    }
+  
+    input.ng-invalid.ng-touched {
+      border: 1px solid red;
+    }
+  
+  #button{
+      justify-content: center;
+      align-items: center;
+      margin-left: 40%;
+      border-radius: 24px;
+    }
+  
+    .btn{
+      margin-top: 3vh;
+      background-color: #00aaff;
+      color: whitesmoke;
+      border: none;
+    }
+    .btn:hover{
+      background-color: #83d6ff;
+      color: #00aaff;
+    }
+    
+    .card-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 120vh;
+      height: 90vh;
+      display: flex;
+      margin: 0 auto;
+    }
+    
+    .card-container .solution_card { 
+        background: #fff;
+        box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
+          0 5px 15px 0 rgba(37, 44, 97, 0.15);
+        border-radius: 15px;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        max-width: 80%;
+        width: auto; 
+        margin: 10px; 
+      }
+    
+      .card-container .login_size {
+        margin-top: auto;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 0% 10% 5% 10%;
+        text-align: start;
+      }
+  
+    .card-footer{
+      margin-top: 10%;
+    }
+  
+    
+  
+   
+  
+   

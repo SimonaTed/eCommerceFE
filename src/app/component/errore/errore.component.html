@@ -1,0 +1,43 @@
+<div class="areaPersonale" routerLink="/area-personale">
+    <i class="fa-solid fa-user fa-lg" data-toggle="tooltip" title="Area personale"></i>
+</div>
+
+<div class="error-card-container d-flex justify-content-center">
+    <div class="error_solution_card container-fluid error_card_size">
+        <div class="error-text">
+            <h4>Spiacente!</h4>
+            <h6>Nessun risultato presente per i parametri di ricerca...</h6>
+        </div>
+
+        <div>
+            <button class="btn btn-outline-secondary" routerLink="/home">
+              Torna alla Home
+            </button>
+          </div>
+        
+    </div>
+</div>
+
+
+
+<h5 class="suggerimenti">Suggerimenti...</h5>
+
+
+<div class="card-container d-flex justify-content-center">
+    <div class="solution_card container-fluid cards_size" *ngFor="let query of queries">
+        <div class="hover_color_bubble"></div>
+        <div style="margin-top: 5vh;">
+            <h5>{{query}}</h5>
+            <p>Breve descrizione</p>
+        </div>
+        <div class="arrow-right">
+            <i class="fa-solid fa-arrow-right fa-lg"></i>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <app-footer></app-footer>
+</footer>
